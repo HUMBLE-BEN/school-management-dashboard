@@ -4,6 +4,7 @@ import React from 'react'
 import Sidebar from './Sidebar.jsx'
 import Navbar from './Navbar.jsx'
 import DashboardPage from '../../pages/DashboardPage.jsx'
+import StudentsTable from '../dashboard/StudentsTable.jsx'
 
 function PageLayout() {
   return (
@@ -12,6 +13,7 @@ function PageLayout() {
       <main className='flex-1 p-6 bg-slate-50'>
       <Navbar />
       <DashboardPage/>
+      < StudentsTable />
       
       </main>
     </div>

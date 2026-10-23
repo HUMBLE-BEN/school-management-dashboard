@@ -3,7 +3,8 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <header className="mb-8">
+    
+    <header className="mb-8 ">
       <h1 className="text-2xl font-bold text-slate-800">
         Dashboard Overview
       </h1>
